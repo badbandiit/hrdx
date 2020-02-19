@@ -103,8 +103,8 @@
 
 <div id="activity">
 			<img src="http://code.quirkbot.com/assets/images/logo/white-outline.svg" width="30%" alt="">
-  <h1 id="counter">You have hit the spacebar <span class="hits">0</span> times.</h1>
-  <a href="#" onclick="resetHits()" class="tryagain">RESTART</a>
+  <h1 id="counter">You have pressed the spacebar <span class="hits">0</span> times.</h1>
+  <a href="#" onclick="resetHits()" class="tryagain">Reset Clicks</a>
 		</div>
 <script>
 var hits = getCookie('hits');
